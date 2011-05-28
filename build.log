@@ -1,0 +1,5 @@
+mkdir '/Users/mahmutbulut/Documents/MATLAB/MainLinear/MainLinear/distrib'
+mkdir '/Users/mahmutbulut/Documents/MATLAB/MainLinear/MainLinear/src'
+mcc -F /Users/mahmutbulut/Documents/MATLAB/MainLinear/MainLinear.prj
+mcc -o 'MainLinear' -W 'main' -d '/Users/mahmutbulut/Documents/MATLAB/MainLinear/MainLinear/src' -T 'link:exe' -v '/Users/mahmutbulut/Documents/MATLAB/MainLinear/main_linear.m' -a '/Users/mahmutbulut/Documents/MATLAB/MainLinear/adj.m' -a '/Users/mahmutbulut/Documents/MATLAB/MainLinear/diagon.m' -a '/Users/mahmutbulut/Documents/MATLAB/MainLinear/issquare.m' -a '/Users/mahmutbulut/Documents/MATLAB/MainLinear/nullity.m' -a '/Users/mahmutbulut/Documents/MATLAB/MainLinear/rowef.m' 
+Compiler version: 4.11 (R2009b) 
