@@ -1,5 +1,7 @@
 MATLAB Builder JA Read Me
 
+Mahmut Bulut 2011 (c)
+
 1. Prerequisites for Deployment 
 
 * Verify the MATLAB Compiler Runtime (MCR) is installed and ensure you    
