@@ -22,8 +22,5 @@ if length(a(1,:)) ~= length(a(:,1))
 else if length(a(1,:)) == length(a(:,1))
         disp('Processed: Square matrix')
         p = a;
-        solution = 1;
-        save ('solution.mat', 'solution')
-        load ('solution.mat')
     end
 end

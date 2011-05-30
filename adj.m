@@ -1,4 +1,4 @@
-function [B] = adj(A,mode)
+function [B] = adj(A,~)
 %ADJ Matrix adjoint.
 %
 %   ADJ(A) is the adjoint matrix of matrix A.

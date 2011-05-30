@@ -1,6 +1,6 @@
-function m = main_linear(Matrix1)
+function main_linear(Matrix1)
 % Full Program for Linear elementary operations
-%% Arguments list
+% Arguments list
 disp('1 - Is Square Function');
 disp('2 - Row Echelon Form of a matrix');
 disp('3 - Rank');
@@ -8,9 +8,9 @@ disp('4 - Nullity');
 disp('5 - Query of Is Vector');
 disp('6 - Adjoint of a matrix');
 disp('7 - Diagonalization (imminent)');
-%% Input usage arguments
+% Input usage arguments
 ProcessNumber = input('Input process number: ' );
-%% Switch iteration
+% Switch iteration
 switch ProcessNumber
     case 1
         issquare(Matrix1)
