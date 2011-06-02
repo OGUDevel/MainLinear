@@ -1,11 +1,11 @@
-function y = cross(a,b)
+function y = cross_product(a,b)
 
 if( length(a) ~= length(b))
-    disp('Different vector sizes');
+    error('Different vector sizes');
 end
 
 if(length(a) >3 )
-    disp('This function only for 3x3 vectors');
+    error('This function only for 3x3 vectors');
 end
     
 

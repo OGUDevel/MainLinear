@@ -1,4 +1,4 @@
-function y=angle(a,b)
+function angle(a,b)
 
 % Ingilizce'ye cevirdim error handler ekledim
 
@@ -27,5 +27,5 @@ norm2 = sqrt(norm2);
 
 ang = acos(total/(norm1*norm2));
 ang = (ang*360)/(2*pi);
-
-y = ang;
+disp('Angle between the vector is: ');
+disp(ang);
