@@ -1,4 +1,4 @@
-function main_linear(Matrix1, Matrix2, Matrix3)
+function main_linear(Matrix1, ~, ~)
 % Full Program for Linear elementary operations
 % Arguments list
 disp('1 - Is Square Function');
